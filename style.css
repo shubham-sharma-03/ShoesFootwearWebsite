@@ -11,6 +11,7 @@ body {
     transition: background 0.4s ease-in-out;
 }
 
+
 a {
     color: white;
     text-decoration: none;
@@ -30,7 +31,8 @@ a {
     font-size: 3rem;
 }
 
-.logo {
+.logo 
+{
     text-align: center;
     margin: 1.7rem;
     color: white;
@@ -60,16 +62,7 @@ a {
     width: 100vw;
     margin-top: 10rem;
 }
-/* 
-.carousel-container h1 {
-    padding: 1.5rem;
-}
 
-.carousel-container a {
-    top: -6rem;
-    padding: 1.5rem;
-
-} */
 
 .carousel {
     position: absolute;
