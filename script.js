@@ -24,8 +24,10 @@ right.addEventListener("click", () => {
     updateCarouse();
 });
 
+
 function updateCarouse() {
     carousel.style.transform = `translateX(${
+        
         -current_slide * slides[0].offsetWidth}px)`;
 
         console.log(slides[current_slide].getAttribute("data-bg"));
