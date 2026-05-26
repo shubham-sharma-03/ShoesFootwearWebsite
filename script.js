@@ -12,6 +12,7 @@ left.addEventListener("click", () => {
     if (current_slide < 0) {
         current_slide = SLIDES_COUNT - 1;
     }
+    
 updateCarouse();
 });
 
