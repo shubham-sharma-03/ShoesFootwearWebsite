@@ -2,7 +2,6 @@ const slides = document.querySelectorAll(".slide");
 const carousel = document.getElementById("carousel");
 const left = document.getElementById("left");
 const right = document.getElementById("right");
-
 const SLIDES_COUNT = slides.length;
 
 let current_slide = 0;
@@ -14,6 +13,7 @@ left.addEventListener("click", () => {
     }
     
 updateCarouse();
+    
 });
 
 right.addEventListener("click", () => {
