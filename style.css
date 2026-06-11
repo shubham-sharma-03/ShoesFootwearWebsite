@@ -55,6 +55,7 @@ a {
 }
 
 .carousel-container {
+    
     top: -6rem;
     overflow: hidden;
     position: relative;
@@ -65,6 +66,7 @@ a {
 
 
 .carousel {
+    
     position: absolute;
     left: 0;
     top: 0;
@@ -74,6 +76,7 @@ a {
 }
 
 .slide {
+    
     width: 100vw;
     text-align: center;
 }
