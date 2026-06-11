@@ -27,6 +27,7 @@ right.addEventListener("click", () => {
 
 
 function updateCarouse() {
+    
     carousel.style.transform = `translateX(${
         
         -current_slide * slides[0].offsetWidth}px)`;
